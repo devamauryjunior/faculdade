@@ -1,0 +1,110 @@
+@media screen and (max-width: 1235px) {
+    video {
+        display: none;
+    }
+
+    .video-info span {
+        display: none;
+    }
+}
+@media screen and (max-width: 1074px) {
+    #main {
+        margin-top: 2.5rem;
+    }
+    
+    #main > h2 {
+        font-size: 3.5rem;
+    }
+
+    .brasil,
+    .paraguai {
+        flex-direction: row-reverse;
+    }
+
+    .uruguai,
+    .argentina {
+        flex-direction: row;
+    }
+
+    .brasil,
+    .uruguai,
+    .paraguai {
+        margin-bottom: 3.2rem;
+    }
+
+    .brasil img,
+    .paraguai img,
+    .uruguai img,
+    .argentina img {
+        width: 450px;
+        margin-left: 1rem;
+    }
+
+    .uruguai h2,
+    .argentina h2 {
+        text-align: right;
+    }
+
+    .country-text h2 {
+        font-size: 4.5rem;
+        margin-top: 1rem;
+        padding-left: .8rem;
+    }
+
+    .country-text p {
+        padding-inline: 1rem;
+    }
+
+    video {
+        display: none;
+    }
+
+    .video-info span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main > h2 {
+        font-size: 3rem;
+    }
+
+    video {
+        display: none;
+    }
+    .brasil,
+    .uruguai,
+    .paraguai,
+    .argentina {
+        flex-direction: column;
+    }
+
+    .uruguai h2,
+    .argentina h2,
+    .brasil h2,
+    .paraguai h2 {
+        text-align: center;
+    }
+
+    .brasil img,
+    .uruguai img,
+    .paraguai img,
+    .argentina img {
+        clip-path: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #main {
+        margin: 0 0 0 0;
+    }
+    #main > h2 {
+        font-size: 2.5rem;
+    }
+    .brasil img,
+    .uruguai img,
+    .paraguai img,
+    .argentina img {
+        width: 300px;
+    }
+}

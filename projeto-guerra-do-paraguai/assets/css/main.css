@@ -1,0 +1,106 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 1.2rem;
+    margin-top: 4rem;
+}
+
+#main > h2 {
+    font-size: 5rem;
+    font-style: oblique;
+    font-weight: 500;
+    margin-bottom: .8rem;
+    color: #696969;
+}
+
+.brasil,
+.uruguai,
+.paraguai,
+.argentina {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brasil,
+.uruguai,
+.paraguai {
+    margin-bottom: 9rem;
+}
+
+.brasil,
+.paraguai {
+    flex-direction: row-reverse;
+}
+
+.uruguai,
+.argentina {
+    flex-direction: row;
+}
+
+
+.brasil img,
+.paraguai img {
+    width: 450px;
+    clip-path: var(--clip-path-right);
+    margin-left: 1.6rem;
+}
+
+.uruguai img,
+.argentina img {
+    width: 450px;
+    clip-path: var(--clip-path-left);
+    margin-right: 1.6rem;
+}
+
+
+
+.country-text h2 {
+    font-size: 6rem;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    background-image: linear-gradient(to bottom, blue, green, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+.country-text p {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 3rem;
+    color: var(--color-bege);
+}
+
+.country-text p a {
+    color: #F2DBAE;
+}
+
+.country-text p a:hover {
+    border-bottom: 1px solid #ff9898;
+}
+
+.video-info {
+    margin-bottom: 3rem;
+}
+
+.video-info span {
+    font-size: 2.2rem;
+    color: #F2DBAE;
+}
+
+.video-info span a {
+    color: #F2DBAE;
+}
+
+video{
+    width: 1000px;
+    margin: 5rem 0 0 22rem;
+    border-radius: 1rem;
+}
