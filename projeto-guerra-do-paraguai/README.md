@@ -14,7 +14,7 @@ A guerra do Paraguai foi um conflito no continente latino americo que teve parti
 </div>
 
 ## Veja como ficou
-<a href="https://guerra-do-paraguai.vercel.app/" target="_blank">Guerra do Paraguai</a>
+<a href="https://faculdade-guerra-do-paraguai.vercel.app/" target="_blank">Guerra do Paraguai</a>
 
 ## Referência
 
